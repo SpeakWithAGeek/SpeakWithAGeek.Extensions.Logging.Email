@@ -1,1 +1,0 @@
-# SpeakWithAGeek.Extensions.Logging.Email

@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeakWithAGeek.Extensions.Logging.Email", "src\SpeakWithAGeek.Extensions.Logging.Email\SpeakWithAGeek.Extensions.Logging.Email.csproj", "{489CF764-FBD3-46F5-A201-3143BF8FCCF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{27F96CE0-DAF1-4F6A-AFD1-0BA1EB3DD068}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeakWithAGeek.Extensions.Logging.Email.SendGrid", "src\SpeakWithAGeek.Extensions.Logging.Email.SendGrid\SpeakWithAGeek.Extensions.Logging.Email.SendGrid.csproj", "{B8DDA827-F4CA-4EBD-98FE-E06E8BF9FCF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeakWithAGeek.Extensions.Logging.Email.Smtp", "src\SpeakWithAGeek.Extensions.Logging.Email.Smtp\SpeakWithAGeek.Extensions.Logging.Email.Smtp.csproj", "{B0AF6CB6-806A-4705-9606-353146F3AEDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{489CF764-FBD3-46F5-A201-3143BF8FCCF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{489CF764-FBD3-46F5-A201-3143BF8FCCF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{489CF764-FBD3-46F5-A201-3143BF8FCCF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{489CF764-FBD3-46F5-A201-3143BF8FCCF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8DDA827-F4CA-4EBD-98FE-E06E8BF9FCF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8DDA827-F4CA-4EBD-98FE-E06E8BF9FCF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8DDA827-F4CA-4EBD-98FE-E06E8BF9FCF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8DDA827-F4CA-4EBD-98FE-E06E8BF9FCF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0AF6CB6-806A-4705-9606-353146F3AEDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0AF6CB6-806A-4705-9606-353146F3AEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0AF6CB6-806A-4705-9606-353146F3AEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0AF6CB6-806A-4705-9606-353146F3AEDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{489CF764-FBD3-46F5-A201-3143BF8FCCF8} = {27F96CE0-DAF1-4F6A-AFD1-0BA1EB3DD068}
+		{B8DDA827-F4CA-4EBD-98FE-E06E8BF9FCF1} = {27F96CE0-DAF1-4F6A-AFD1-0BA1EB3DD068}
+		{B0AF6CB6-806A-4705-9606-353146F3AEDA} = {27F96CE0-DAF1-4F6A-AFD1-0BA1EB3DD068}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2800A8AF-6AE5-4155-8516-08313C8D6D05}
+	EndGlobalSection
+EndGlobal
